@@ -310,13 +310,26 @@ export default function Home() {
               <div className="flex flex-col md:flex-row items-center justify-between w-full">
                 <div className="order-1 md:w-5/12 md:text-right md:pr-10 pl-8 md:pl-0">
                   <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
-                    <span className="text-neon-400 text-sm font-bold tracking-widest">2018 - 2021</span>
-                    <h3 className="text-xl font-bold text-white mt-1">Lycée Moderne Ampefiloha</h3><h4 className="text-gray-400 text-sm mb-4">Baccalauréat Scientifique</h4>
-                    <p className="text-gray-300 text-sm">Obtention du baccalauréat série D.</p>
+                    <span className="text-neon-400 text-sm font-bold tracking-widest">2024</span>
+                    <h3 className="text-xl font-bold text-white mt-1">Hackaton Inter-Universitaire</h3><h4 className="text-gray-400 text-sm mb-4">HIU</h4>
+                    <p className="text-gray-300 text-sm">Participant de l'Hackaton Inter-Universitaire à Madagascar</p>
                   </div>
                 </div>
                 <div className="z-20 flex items-center order-1 bg-dark-900 border-2 border-gray-600 rounded-full w-8 h-8 justify-center absolute left-[-16px] md:left-1/2 md:-translate-x-1/2 top-0 md:top-6"><div className="w-3 h-3 bg-gray-400 rounded-full"></div></div>
                 <div className="order-1 md:w-5/12"></div>
+              </div>
+            </div>
+            <div className="relative z-10 mb-12" data-aos="fade-up" data-aos-delay="200">
+              <div className="flex flex-col md:flex-row items-center justify-between w-full">
+                <div className="order-1 md:w-5/12 md:text-right"></div>
+                <div className="z-20 flex items-center order-1 bg-dark-900 border-2 border-neon-400 rounded-full w-8 h-8 justify-center shadow-neon absolute left-[-16px] md:left-1/2 md:-translate-x-1/2"><div className="w-3 h-3 bg-neon-400 rounded-full"></div></div>
+                <div className="order-1 md:w-5/12 pl-8 md:pl-0">
+                  <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
+                    <span className="text-neon-400 text-sm font-bold tracking-widest">2019 - 2022</span>
+                    <h3 className="text-xl font-bold text-white mt-1">Lycée Moderne Ampefiloha</h3><h4 className="text-gray-400 text-sm mb-4">Baccalauréat Scientifique</h4>
+                    <p className="text-gray-300 text-sm">Obtention du baccalauréat série D.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -355,8 +368,8 @@ export default function Home() {
           <span className="text-lg font-bold text-white">MANOA<span className="text-neon-400">.DEV</span></span>
           <p className="text-gray-500 text-sm">© 2026 Manoa Ravoninjatovo. Fait avec <i className="fas fa-heart text-red-500 mx-1"></i></p>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-500 hover:text-neon-400 transition-colors"><i className="fab fa-github"></i></a>
-            <a href="#" class="text-gray-500 hover:text-neon-400 transition-colors"><i className="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Manoa238" className="text-gray-500 hover:text-neon-400 transition-colors"><i className="fab fa-github"></i></a>
+            {/* <a href="#" class="text-gray-500 hover:text-neon-400 transition-colors"><i className="fab fa-linkedin"></i></a> */}
           </div>
         </div>
       </footer>
