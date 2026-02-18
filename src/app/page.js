@@ -144,7 +144,7 @@ export default function Home() {
               </div>
               <div className="bg-dark-card border border-white/5 rounded-2xl p-5 flex flex-col justify-center items-center hover:border-neon-400/30 transition-all duration-300 group" data-aos="fade-left" data-aos-delay="200">
                 <div className="text-4xl font-bold text-white mb-1 group-hover:text-neon-400 transition-colors">15+</div>
-                <p className="text-gray-400 text-xs text-center uppercase tracking-wider">Projets Livrés</p>
+                <p className="text-gray-400 text-xs text-center uppercase tracking-wider">Projets réalisés</p>
               </div>
             </div>
             <div className="md:col-span-1 bg-gradient-to-br from-dark-card to-dark-800 border border-white/5 rounded-2xl p-5 flex items-center justify-between hover:border-neon-400/30 transition-all" data-aos="fade-up" data-aos-delay="300">
