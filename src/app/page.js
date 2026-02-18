@@ -332,6 +332,21 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
+            <div className="relative z-10 mb-12" data-aos="fade-up">
+              <div className="flex flex-col md:flex-row items-center justify-between w-full">
+                <div className="order-1 md:w-5/12 md:text-right"></div>
+                <div className="z-20 flex items-center order-1 bg-dark-900 border-2 border-neon-400 rounded-full w-8 h-8 justify-center shadow-neon absolute left-[-16px] md:left-1/2 md:-translate-x-1/2"><div className="w-3 h-3 bg-neon-400 rounded-full"></div></div>
+                <div className="order-1 md:w-5/12 pl-8 md:pl-0">
+                  <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
+                    <span className="text-neon-400 text-sm font-bold tracking-widest">2019 - 2022</span>
+                    <h3 className="text-xl font-bold text-white mt-1">Lycée Moderne Ampefiloha</h3><h4 className="text-gray-400 text-sm mb-4">Baccalauréat Scientifique</h4>
+                    <p className="text-gray-300 text-sm">Obtention du baccalauréat série D.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
