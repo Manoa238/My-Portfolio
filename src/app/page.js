@@ -321,7 +321,7 @@ export default function Home() {
             </div>
             <div className="relative z-10 mb-12" data-aos="fade-up" data-aos-delay="200">
               <div className="flex flex-col md:flex-row items-center justify-between w-full">
-                <div className="order-1 md:w-5/12 md:text-right"></div>
+                <div className="order-1 md:w-5/12 md:text-right md:pr-10 pl-8 md:pl-0"></div>
                 <div className="z-20 flex items-center order-1 bg-dark-900 border-2 border-neon-400 rounded-full w-8 h-8 justify-center shadow-neon absolute left-[-16px] md:left-1/2 md:-translate-x-1/2"><div className="w-3 h-3 bg-neon-400 rounded-full"></div></div>
                 <div className="order-1 md:w-5/12 pl-8 md:pl-0">
                   <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
