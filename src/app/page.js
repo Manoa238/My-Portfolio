@@ -244,9 +244,9 @@ export default function Home() {
       {/* PROJECTS SECTION */}
       <section id="projects" className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-end mb-10" data-aos="fade-up">
-            <div><h2 className="text-3xl md:text-4xl font-bold text-white mb-2">Projets <span className="text-neon-400">Récents</span></h2><p className="text-gray-400 text-sm">Une sélection de mes meilleurs travaux.</p></div>
-            {/* <a href="#" className="hidden md:flex items-center text-neon-400 hover:text-white transition-colors text-sm">Voir tout <i className="fas fa-arrow-right ml-2"></i></a> */}
+        <div className="text-center mb-12" data-aos="fade-up">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mes <span className="text-neon-400">Projets</span></h2>
+            <p className="text-gray-400">Une sélection de mes meilleurs travaux.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             <div className="group relative rounded-2xl overflow-hidden bg-dark-card border border-white/5" data-aos="fade-up">
