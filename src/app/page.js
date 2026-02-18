@@ -229,37 +229,39 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             <div className="group relative rounded-2xl overflow-hidden bg-dark-card border border-white/5" data-aos="fade-up">
-              <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
+              <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="Images/infomada.jpeg" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
               <div className="p-5">
-                <div className="flex justify-between items-start mb-3"><div><h3 className="text-lg font-bold text-white mb-1">E-learning Platform</h3><p className="text-neon-400 text-xs">Full Stack Development</p></div><div className="flex gap-2"><a href="#" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a><a href="#" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fas fa-external-link-alt"></i></a></div></div>
+                <div className="flex justify-between items-start mb-3">
+                  <div>
+                    <h3 className="text-lg font-bold text-white mb-1">Tuto Infomada</h3><p className="text-neon-400 text-xs">Full Stack Development</p></div><div className="flex gap-2"><a href="https://github.com/Manoa238/infomada" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a><a href="https://tuto-infomada.onrender.com/" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fas fa-external-link-alt"></i></a></div></div>
                 <p className="text-gray-400 text-xs mb-4">Plateforme éducative complète permettant la gestion de cours en ligne, le suivi des étudiants et des quiz interactifs.</p>
-                <div className="flex flex-wrap gap-2">{['React', 'Node.js', 'MongoDB'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
+                <div className="flex flex-wrap gap-2">{['JavaScript', 'TailwindCss', 'postgreSql', 'Php'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
               </div>
             </div>
             <div className="group relative rounded-2xl overflow-hidden bg-dark-card border border-white/5" data-aos="fade-up" data-aos-delay="100">
-              <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
+              <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="Images/location.jpeg" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
               <div className="p-5">
-                <div className="flex justify-between items-start mb-3"><div><h3 className="text-lg font-bold text-white mb-1">Pharmacy Manager</h3><p className="text-neon-400 text-xs">Desktop Application</p></div><div className="flex gap-2"><a href="#" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a></div></div>
+                <div className="flex justify-between items-start mb-3"><div><h3 className="text-lg font-bold text-white mb-1">Location Festivité</h3><p className="text-neon-400 text-xs">Web Application</p></div><div className="flex gap-2"><a href="https://github.com/Manoa238/locationFestivite" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a></div></div>
                 <p className="text-gray-400 text-xs mb-4">Système de gestion de stock, alertes de péremption et facturation pour pharmacies.</p>
-                <div className="flex flex-wrap gap-2">{['Java', 'MySQL', 'JavaFX'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
+                <div className="flex flex-wrap gap-2">{['Java', 'JavaScript', 'PostgreSql'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
               </div>
             </div>
             <div className="group relative rounded-2xl overflow-hidden bg-dark-card border border-white/5" data-aos="fade-up" data-aos-delay="200">
-              <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
+              <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="Images/ellingo.jpeg" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
               <div className="p-5">
-                <div className="flex justify-between items-start mb-3"><div><h3 className="text-lg font-bold text-white mb-1">Portfolio v1</h3><p className="text-neon-400 text-xs">Web Design</p></div><div className="flex gap-2"><a href="#" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a></div></div>
-                <p className="text-gray-400 text-xs mb-4">Conception d'un site vitrine moderne pour présenter des services de freelance.</p>
-                <div className="flex flex-wrap gap-2">{['HTML5', 'Tailwind'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
+                <div className="flex justify-between items-start mb-3"><div><h3 className="text-lg font-bold text-white mb-1">EllinGO</h3><p className="text-neon-400 text-xs">Application Mobile</p></div><div className="flex gap-2"><a href="https://github.com/Manoa238/ELLinGO/releases/tag/v1.0/" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a></div></div>
+                <p className="text-gray-400 text-xs mb-4">Application mobile E-Learning</p>
+                <div className="flex flex-wrap gap-2">{['React-Native','TypeScript','Json','Expo Go'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
               </div>
             </div>
-            <div className="group relative rounded-2xl overflow-hidden bg-dark-card border border-white/5" data-aos="fade-up" data-aos-delay="300">
+            {/* <div className="group relative rounded-2xl overflow-hidden bg-dark-card border border-white/5" data-aos="fade-up" data-aos-delay="300">
               <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
               <div className="p-5">
                 <div className="flex justify-between items-start mb-3"><div><h3 className="text-lg font-bold text-white mb-1">Team Dashboard</h3><p className="text-neon-400 text-xs">SaaS UI</p></div><div className="flex gap-2"><a href="#" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a></div></div>
                 <p className="text-gray-400 text-xs mb-4">Interface d'administration pour la gestion d'équipe et de tâches en méthode Agile.</p>
                 <div className="flex flex-wrap gap-2">{['Vue.js', 'Firebase'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
