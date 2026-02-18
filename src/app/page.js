@@ -1,11 +1,32 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import emailjs from '@emailjs/browser';
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const form = useRef();
+
+  // Fonction d'envoi d'email
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    // REMPLACE CES VALEURS PAR LES TIENNES
+    const SERVICE_ID = 'service_yw90ckq';
+    const TEMPLATE_ID = 'template_bmyd7y4';
+    const PUBLIC_KEY = 'a4YVjJ7IKbehmJM7q';
+
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+      .then((result) => {
+          alert("Message envoyé avec succès !");
+          e.target.reset(); // Vide le formulaire après envoi
+      }, (error) => {
+          alert("Une erreur est survenue, veuillez réessayer.");
+          console.log(error.text);
+      });
+  };
 
   useEffect(() => {
     // Initialisation AOS
@@ -315,13 +336,13 @@ export default function Home() {
               </div>
             </div>
             <div className="glass-panel p-8 rounded-3xl border border-white/10" data-aos="fade-left">
-              <form action="#" className="space-y-6">
+              <form ref={form} onSubmit={sendEmail} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div><label className="block text-sm text-gray-400 mb-2">Nom</label><input type="text" placeholder="Votre nom" className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-neon-400 focus:ring-1 focus:ring-neon-400 outline-none transition-all" /></div>
-                  <div><label className="block text-sm text-gray-400 mb-2">Email</label><input type="email" placeholder="votre@gmail.com" className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-neon-400 focus:ring-1 focus:ring-neon-400 outline-none transition-all" /></div>
+                  <div><label className="block text-sm text-gray-400 mb-2">Nom</label><input type="text" name="user_name" placeholder="Votre nom" className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-neon-400 focus:ring-1 focus:ring-neon-400 outline-none transition-all" required /></div>
+                  <div><label className="block text-sm text-gray-400 mb-2">Email</label><input type="email" name="user_email" placeholder="votre@gmail.com" className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-neon-400 focus:ring-1 focus:ring-neon-400 outline-none transition-all" required /></div>
                 </div>
-                <div><label className="block text-sm text-gray-400 mb-2">Message</label><textarea rows="4" placeholder="Votre message..." className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-neon-400 focus:ring-1 focus:ring-neon-400 outline-none transition-all"></textarea></div>
-                <button type="button" className="w-full py-4 bg-gradient-to-r from-neon-400 to-blue-500 text-dark-900 font-bold rounded-lg hover:shadow-neon hover:scale-[1.02] transition-all duration-300">Envoyer le message <i className="fas fa-paper-plane ml-2"></i></button>
+                <div><label className="block text-sm text-gray-400 mb-2">Message</label><textarea name="message" rows="4" placeholder="Votre message..." className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:border-neon-400 focus:ring-1 focus:ring-neon-400 outline-none transition-all" required></textarea></div>
+                <button type="submit" className="w-full py-4 bg-gradient-to-r from-neon-400 to-blue-500 text-dark-900 font-bold rounded-lg hover:shadow-neon hover:scale-[1.02] transition-all duration-300">Envoyer le message <i className="fas fa-paper-plane ml-2"></i></button>
               </form>
             </div>
           </div>
