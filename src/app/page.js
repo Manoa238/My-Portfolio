@@ -101,9 +101,9 @@ export default function Home() {
               <a href="#contact" className="px-8 py-3 border border-gray-600 text-white font-medium rounded-full hover:border-neon-400 hover:text-neon-400 bg-dark-800/50 backdrop-blur-sm transition-all duration-300">Contactez-moi</a>
             </div>
             <div className="flex items-center gap-6 pt-6">
-              <a href="#" className="text-gray-400 hover:text-neon-400 text-2xl transition-transform hover:-translate-y-1"><i className="fab fa-github"></i></a>
-              <a href="#" className="text-gray-400 hover:text-neon-400 text-2xl transition-transform hover:-translate-y-1"><i className="fab fa-linkedin"></i></a>
-              <a href="#" className="text-gray-400 hover:text-neon-400 text-2xl transition-transform hover:-translate-y-1"><i className="fas fa-envelope"></i></a>
+              <a href="https://github.com/Manoa238" className="text-gray-400 hover:text-neon-400 text-2xl transition-transform hover:-translate-y-1"><i className="fab fa-github"></i></a>
+              {/* <a href="#" className="text-gray-400 hover:text-neon-400 text-2xl transition-transform hover:-translate-y-1"><i className="fab fa-linkedin"></i></a> */}
+              <a href="mailto:ravomanoa3@gmail.com" className="text-gray-400 hover:text-neon-400 text-2xl transition-transform hover:-translate-y-1"><i className="fas fa-envelope"></i></a>
             </div>
           </div>
           <div className="order-1 lg:order-2 flex justify-center relative" data-aos="fade-left">
