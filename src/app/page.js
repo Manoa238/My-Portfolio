@@ -290,7 +290,7 @@ export default function Home() {
       {/* EDUCATION SECTION */}
       <section id="education" className="py-24 bg-dark-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16" data-aos="fade-up"><h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mes <span className="text-neon-400">Parcours </span>et<span className="text-neon-400">Expériences </span> </h2></div>
+          <div className="text-center mb-16" data-aos="fade-up"><h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mes <span className="text-neon-400">Parcours </span>et<span className="text-neon-400"> Expérience</span></h2></div>
           <div className="relative ml-4 md:ml-0">
             <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-neon-400 to-transparent"></div>
             <div className="relative z-10 mb-12" data-aos="fade-up">
@@ -299,14 +299,14 @@ export default function Home() {
                 <div className="z-20 flex items-center order-1 bg-dark-900 border-2 border-neon-400 rounded-full w-8 h-8 justify-center shadow-neon absolute left-[-16px] md:left-1/2 md:-translate-x-1/2"><div className="w-3 h-3 bg-neon-400 rounded-full"></div></div>
                 <div className="order-1 md:w-5/12 pl-8 md:pl-0">
                   <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
-                    <span className="text-neon-400 text-sm font-bold tracking-widest">2025 - PRÉSENT</span>
+                    <span className="text-neon-400 text-sm font-bold tracking-widest">2024 - 2025</span>
                     <h3 className="text-xl font-bold text-white mt-1">Université Ravelojaona</h3><h4 className="text-gray-400 text-sm mb-4">Obtention du diplôme de Licence en Informatique</h4>
                     <p className="text-gray-300 text-sm">Spécialisation Génie Logiciel. Projets académiques majeurs en développement d'Application</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="relative z-10" data-aos="fade-up" data-aos-delay="100">
+            <div className="relative z-10 mb-12" data-aos="fade-up" data-aos-delay="100">
               <div className="flex flex-col md:flex-row items-center justify-between w-full">
                 <div className="order-1 md:w-5/12 md:text-right md:pr-10 pl-8 md:pl-0">
                   <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
