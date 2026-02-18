@@ -71,7 +71,7 @@ export default function Home() {
               <span className="w-2 h-2 rounded-full bg-neon-400 animate-pulse"></span>Disponible pour projets
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">Créatrice d'expériences <br /><span className="text-gradient">Digitales</span></h1>
-            <p className="text-lg text-gray-400 max-w-lg leading-relaxed border-l-2 border-neon-400/50 pl-4">Je suis <strong className="text-white">Manoa Fanekena Ravoninjatovo</strong>, développeuse Web passionnée. Je transforme des concepts complexes en interfaces élégantes et performantes.</p>
+            <p className="text-lg text-gray-400 max-w-lg leading-relaxed border-l-2 border-neon-400/50 pl-4">Je suis <strong className="text-white">Manoa Fanekena Ravoninjatovo</strong>, développeur Web passionnée. Je transforme des concepts complexes en interfaces élégantes et performantes.</p>
             <div className="flex flex-wrap gap-4 pt-4">
               <a href="#projects" className="group relative px-8 py-3 bg-neon-400 text-dark-900 font-bold rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-neon">
                 <span className="relative z-10">Voir mes projets</span>
@@ -114,7 +114,7 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-64 h-64 bg-neon-400/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-neon-400/10 transition-colors"></div>
               <div className="relative z-10 h-full flex flex-col justify-between">
                 <div className="mb-6">
-                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Développeuse <span className="text-neon-400">Full Stack</span><br />& Créatrice <span className="text-blue-400">Numérique</span></h3>
+                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Développeur <span className="text-neon-400">Full Stack</span><br />& Créatrice <span className="text-blue-400">Numérique</span></h3>
                   <p className="text-gray-400 text-sm max-w-md">Je transforme les problèmes complexes en interfaces simples, rapides et intuitives. Basée à Mada 🇲🇬, connectée au monde.</p>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="md:col-span-1 bg-gradient-to-br from-dark-card to-dark-800 border border-white/5 rounded-2xl p-5 flex items-center justify-between hover:border-neon-400/30 transition-all" data-aos="fade-up" data-aos-delay="300">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-dark-700 rounded-full flex items-center justify-center text-neon-400 shrink-0"><i className="fas fa-map-pin"></i></div>
-                <div><h4 className="text-white font-bold text-sm">Antananarivo</h4><div className="flex gap-2 mt-1"><span className="text-[10px] bg-white/10 px-1.5 py-0.5 rounded text-gray-300">MG</span><span className="text-[10px] bg-white/10 px-1.5 py-0.5 rounded text-gray-300">FR</span><span className="text-[10px] bg-white/10 px-1.5 py-0.5 rounded text-gray-300">EN</span></div></div>
+                <div><h4 className="text-white font-bold text-sm">Antsirabe</h4><div className="flex gap-2 mt-1"><span className="text-[10px] bg-white/10 px-1.5 py-0.5 rounded text-gray-300">MG</span><span className="text-[10px] bg-white/10 px-1.5 py-0.5 rounded text-gray-300">FR</span><span className="text-[10px] bg-white/10 px-1.5 py-0.5 rounded text-gray-300">EN</span></div></div>
               </div>
             </div>
             <div className="md:col-span-2 bg-dark-card border border-white/5 rounded-2xl p-5 flex items-center justify-between hover:border-neon-400/30 transition-all group cursor-pointer" onClick={() => window.location.href='#contact'} data-aos="fade-up" data-aos-delay="400">
@@ -242,7 +242,7 @@ export default function Home() {
               <div className="h-48 overflow-hidden relative"><div className="absolute inset-0 bg-dark-900/20 group-hover:bg-transparent transition-colors z-10"></div><img src="Images/location.jpeg" alt="Projet" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" /></div>
               <div className="p-5">
                 <div className="flex justify-between items-start mb-3"><div><h3 className="text-lg font-bold text-white mb-1">Location Festivité</h3><p className="text-neon-400 text-xs">Web Application</p></div><div className="flex gap-2"><a href="https://github.com/Manoa238/locationFestivite" className="w-8 h-8 rounded-full bg-dark-700 flex items-center justify-center text-white hover:bg-neon-400 hover:text-dark-900 transition-colors"><i className="fab fa-github"></i></a></div></div>
-                <p className="text-gray-400 text-xs mb-4">Système de gestion de stock, alertes de péremption et facturation pour pharmacies.</p>
+                <p className="text-gray-400 text-xs mb-4">Système de location de matériels d'une entreprise</p>
                 <div className="flex flex-wrap gap-2">{['Java', 'JavaScript', 'PostgreSql'].map(t => <span key={t} className="text-[10px] px-2 py-1 bg-dark-800 text-gray-300 rounded border border-white/10">{t}</span>)}</div>
               </div>
             </div>
@@ -269,7 +269,7 @@ export default function Home() {
       {/* EDUCATION SECTION */}
       <section id="education" className="py-24 bg-dark-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16" data-aos="fade-up"><h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mon <span className="text-neon-400">Parcours</span></h2></div>
+          <div className="text-center mb-16" data-aos="fade-up"><h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mes <span className="text-neon-400">Parcours</span></h2></div>
           <div className="relative ml-4 md:ml-0">
             <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-neon-400 to-transparent"></div>
             <div className="relative z-10 mb-12" data-aos="fade-up">
@@ -278,9 +278,9 @@ export default function Home() {
                 <div className="z-20 flex items-center order-1 bg-dark-900 border-2 border-neon-400 rounded-full w-8 h-8 justify-center shadow-neon absolute left-[-16px] md:left-1/2 md:-translate-x-1/2"><div className="w-3 h-3 bg-neon-400 rounded-full"></div></div>
                 <div className="order-1 md:w-5/12 pl-8 md:pl-0">
                   <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
-                    <span className="text-neon-400 text-sm font-bold tracking-widest">2021 - PRÉSENT</span>
-                    <h3 className="text-xl font-bold text-white mt-1">Université Ravelojanona</h3><h4 className="text-gray-400 text-sm mb-4">Licence en Informatique</h4>
-                    <p className="text-gray-300 text-sm">Spécialisation Génie Logiciel. Projets académiques majeurs en développement web et mobile.</p>
+                    <span className="text-neon-400 text-sm font-bold tracking-widest">2025 - PRÉSENT</span>
+                    <h3 className="text-xl font-bold text-white mt-1">Université Ravelojaona</h3><h4 className="text-gray-400 text-sm mb-4">Obtention du diplôme de Licence en Informatique</h4>
+                    <p className="text-gray-300 text-sm">Spécialisation Génie Logiciel. Projets académiques majeurs en développement d'Application</p>
                   </div>
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Home() {
                   <div className="glass-panel p-6 rounded-xl hover:border-neon-400/50 transition-colors">
                     <span className="text-neon-400 text-sm font-bold tracking-widest">2018 - 2021</span>
                     <h3 className="text-xl font-bold text-white mt-1">Lycée Moderne Ampefiloha</h3><h4 className="text-gray-400 text-sm mb-4">Baccalauréat Scientifique</h4>
-                    <p className="text-gray-300 text-sm">Obtention du baccalauréat série C avec mention. Découverte de l'algorithmique.</p>
+                    <p className="text-gray-300 text-sm">Obtention du baccalauréat série D.</p>
                   </div>
                 </div>
                 <div className="z-20 flex items-center order-1 bg-dark-900 border-2 border-gray-600 rounded-full w-8 h-8 justify-center absolute left-[-16px] md:left-1/2 md:-translate-x-1/2 top-0 md:top-6"><div className="w-3 h-3 bg-gray-400 rounded-full"></div></div>
@@ -310,8 +310,8 @@ export default function Home() {
               <h2 className="text-4xl font-bold text-white mb-6">Parlons de votre <br /><span className="text-neon-400">Prochain Projet</span></h2>
               <p className="text-gray-400 mb-8 text-lg">Je suis toujours intéressée par de nouveaux défis. Que vous ayez une question ou juste envie de dire bonjour, je ferai de mon mieux pour vous répondre !</p>
               <div className="space-y-6">
-                <div className="flex items-center gap-4"><div className="w-12 h-12 rounded-full bg-dark-800 flex items-center justify-center text-neon-400 border border-white/10"><i className="fas fa-envelope"></i></div><div><p className="text-sm text-gray-500">Email</p><p className="text-white font-medium">contact@mika.dev</p></div></div>
-                <div className="flex items-center gap-4"><div className="w-12 h-12 rounded-full bg-dark-800 flex items-center justify-center text-neon-400 border border-white/10"><i className="fas fa-map-marker-alt"></i></div><div><p className="text-sm text-gray-500">Localisation</p><p className="text-white font-medium">Antananarivo, Madagascar</p></div></div>
+                <div className="flex items-center gap-4"><div className="w-12 h-12 rounded-full bg-dark-800 flex items-center justify-center text-neon-400 border border-white/10"><i className="fas fa-envelope"></i></div><div><p className="text-sm text-gray-500">Email</p><a href="mailto:ravomanoa3@gmail.com" className="text-white font-medium">ravomanoa3@gmail.com</a></div></div>
+                <div className="flex items-center gap-4"><div className="w-12 h-12 rounded-full bg-dark-800 flex items-center justify-center text-neon-400 border border-white/10"><i className="fas fa-map-marker-alt"></i></div><div><p className="text-sm text-gray-500">Localisation</p><p className="text-white font-medium">Antsirabe, Madagascar</p></div></div>
               </div>
             </div>
             <div className="glass-panel p-8 rounded-3xl border border-white/10" data-aos="fade-left">
