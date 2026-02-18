@@ -199,14 +199,14 @@ export default function Home() {
               <div className="text-neon-400 text-2xl mb-3"><i className="fas fa-database"></i></div>
               <h3 className="text-lg font-bold text-white mb-4">Bases de données</h3>
               <div className="flex flex-wrap gap-2">
-                {['MySQL', 'PostgreSQL', 'MongoDB'].map(s => <span key={s} className="px-3 py-1 bg-dark-800 text-green-400 text-xs font-medium rounded-full border border-green-400/20 hover:bg-green-400 hover:text-dark-900 transition-colors cursor-default">{s}</span>)}
+                {['MySQL', 'PostgreSQL'].map(s => <span key={s} className="px-3 py-1 bg-dark-800 text-green-400 text-xs font-medium rounded-full border border-green-400/20 hover:bg-green-400 hover:text-dark-900 transition-colors cursor-default">{s}</span>)}
               </div>
             </div>
             <div className="glass-panel p-6 rounded-2xl hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
               <div className="text-neon-400 text-2xl mb-3"><i className="fas fa-tools"></i></div>
               <h3 className="text-lg font-bold text-white mb-4">Outils</h3>
               <div className="flex flex-wrap gap-2">
-                {['Git & GitHub', 'Agile', 'VS Code'].map(s => <span key={s} className="px-3 py-1 bg-dark-800 text-orange-400 text-xs font-medium rounded-full border border-orange-400/20 hover:bg-orange-400 hover:text-dark-900 transition-colors cursor-default">{s}</span>)}
+                {['Git & GitHub', 'MosCow', 'Trello', 'Photoshop'].map(s => <span key={s} className="px-3 py-1 bg-dark-800 text-orange-400 text-xs font-medium rounded-full border border-orange-400/20 hover:bg-orange-400 hover:text-dark-900 transition-colors cursor-default">{s}</span>)}
               </div>
             </div>
             <div className="glass-panel p-6 rounded-2xl hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
