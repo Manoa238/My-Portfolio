@@ -143,7 +143,7 @@ export default function Home() {
                 <p className="text-gray-400 text-xs text-center uppercase tracking-wider">Ans d'expérience</p>
               </div>
               <div className="bg-dark-card border border-white/5 rounded-2xl p-5 flex flex-col justify-center items-center hover:border-neon-400/30 transition-all duration-300 group" data-aos="fade-left" data-aos-delay="200">
-                <div className="text-4xl font-bold text-white mb-1 group-hover:text-neon-400 transition-colors">15+</div>
+                <div className="text-4xl font-bold text-white mb-1 group-hover:text-neon-400 transition-colors">10+</div>
                 <p className="text-gray-400 text-xs text-center uppercase tracking-wider">Projets réalisés</p>
               </div>
             </div>
