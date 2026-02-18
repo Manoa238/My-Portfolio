@@ -92,7 +92,7 @@ export default function Home() {
               <span className="w-2 h-2 rounded-full bg-neon-400 animate-pulse"></span>Disponible pour projets
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">Créatrice d'expériences <br /><span className="text-gradient">Digitales</span></h1>
-            <p className="text-lg text-gray-400 max-w-lg leading-relaxed border-l-2 border-neon-400/50 pl-4">Je suis <strong className="text-white">Manoa Fanekena Ravoninjatovo</strong>, développeur Web passionnée. Je transforme des concepts complexes en interfaces élégantes et performantes.</p>
+            <p className="text-lg text-gray-400 max-w-lg leading-relaxed border-l-2 border-neon-400/50 pl-4">Je suis <strong className="text-white">Manoa Fanekena Ravoninjatovo</strong>, Développeure Web passionnée. Je transforme des concepts complexes en interfaces élégantes et performantes.</p>
             <div className="flex flex-wrap gap-4 pt-4">
               <a href="#projects" className="group relative px-8 py-3 bg-neon-400 text-dark-900 font-bold rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-neon">
                 <span className="relative z-10">Voir mes projets</span>
@@ -135,7 +135,7 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-64 h-64 bg-neon-400/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-neon-400/10 transition-colors"></div>
               <div className="relative z-10 h-full flex flex-col justify-between">
                 <div className="mb-6">
-                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Développeur <span className="text-neon-400">Full Stack</span><br />& Créatrice <span className="text-blue-400">Numérique</span></h3>
+                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Développeure <span className="text-neon-400">Full Stack</span><br />& Créatrice <span className="text-blue-400">Numérique</span></h3>
                   <p className="text-gray-400 text-sm max-w-md">Je transforme les problèmes complexes en interfaces simples, rapides et intuitives. Basée à Mada 🇲🇬, connectée au monde.</p>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -290,7 +290,7 @@ export default function Home() {
       {/* EDUCATION SECTION */}
       <section id="education" className="py-24 bg-dark-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16" data-aos="fade-up"><h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mes <span className="text-neon-400">Parcours</span></h2></div>
+          <div className="text-center mb-16" data-aos="fade-up"><h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Mes <span className="text-neon-400">Parcours </span>et<span className="text-neon-400">Expériences </span> </h2></div>
           <div className="relative ml-4 md:ml-0">
             <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-neon-400 to-transparent"></div>
             <div className="relative z-10 mb-12" data-aos="fade-up">
