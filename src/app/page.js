@@ -331,8 +331,8 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="bg-dark-900 border-t border-gray-800 py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-          <span className="text-lg font-bold text-white">MIKA<span className="text-neon-400">.DEV</span></span>
-          <p className="text-gray-500 text-sm">© 2026 Mika Rakotomalala. Fait avec <i className="fas fa-heart text-red-500 mx-1"></i> et Tailwind.</p>
+          <span className="text-lg font-bold text-white">MANOA<span className="text-neon-400">.DEV</span></span>
+          <p className="text-gray-500 text-sm">© 2026 Manoa Ravoninjatovo. Fait avec <i className="fas fa-heart text-red-500 mx-1"></i></p>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-500 hover:text-neon-400 transition-colors"><i className="fab fa-github"></i></a>
             <a href="#" class="text-gray-500 hover:text-neon-400 transition-colors"><i className="fab fa-linkedin"></i></a>
